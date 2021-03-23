@@ -25,3 +25,6 @@ func main() {
 	log.Println(user.FirstName, user.LastName)
 
 }
+
+//! Like JAVA: Public, Private
+// ! GO: "User" is a public func, thus visible outside Main Package. "user" is a private func, thus only visible inside the package.
